@@ -1,5 +1,5 @@
 {
-  "name": "nytta",
+  "name": "local-nytta",
   "version": "0.0.1",
   "devDependencies": {
     "grunt-contrib-concat": "^0.4.0",
