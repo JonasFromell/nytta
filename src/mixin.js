@@ -5,10 +5,10 @@
             this.constructor = target;
         }
 
-        Constructor.prototype = parent.prototype;
+        Constructor.prototype = source.prototype;
 
         child.prototype = new Constructor();
-        child.__super__ = parent.prototype;
+        child.__super__ = source.prototype;
 
         return child;
     }
