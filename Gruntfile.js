@@ -5,7 +5,7 @@ module.exports = function (grunt) {
 
         concat: {
             lib: {
-                src:    ['src/intro.js', 'src/outro.js'],
+                src:    ['src/intro.js', 'src/each.js', 'src/extend.js', 'src/mixin.js', 'src/outro.js'],
                 dest:   'lib/nytta.js'
             }
         },
